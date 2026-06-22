@@ -43,10 +43,18 @@ It's not just an assistant — it's an extension of your digital life.
 ## ⚡ Quick Start
 
 ```bash
-git clone [https://github.com/FatihMakes/Mark-XLVI.git](https://github.com/FatihMakes/Mark-XLVI.git)
+
+⚠️ **Installation Note:** First Things First: Add this path to the system environment variables (Edit by your path text)
+C:\Users\KSK\AppData\Roaming\Python\Python314\Scripts
+
+git clone https://github.com/FatihMakes/Mark-XLVI.git
 cd Mark-XLVI
 pip install -r requirements.txt
 playwright install
+pip install google-genai
+winget install Python.Python.3.12 && winget install Python.Python.3.11
+py -3.12 -m pip install sounddevice
+pip install PyQt6
 python main.py
 
 ```
